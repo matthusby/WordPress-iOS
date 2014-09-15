@@ -136,7 +136,6 @@ static NSString *CommentCellIdentifier = @"CommentCellIdentifier";
 
     [self.inlineComposeView dismissComposer];
 
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillHideNotification object:nil];
 }
 
